@@ -27,7 +27,7 @@ export default function TextForm(props) {
       let msg = new SpeechSynthesisUtterance();
       msg.text = text;
       window.speechSynthesis.speak(msg);
-      props.showAlert("Text is Pronounced" , "success");
+      props.showAlert("Text is Pronounced Correctly" , "success");
 
     }
 
